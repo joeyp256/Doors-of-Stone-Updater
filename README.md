@@ -5,7 +5,7 @@ This project is a Python script that compiles recent news about the (hopefully) 
 ## Features
 
   - **Multi-Source News Scraping:** Gathers the latest news from specified subreddits and Twitter accounts related to "The Doors of Stone" and Patrick Rothfuss.
-  - **Character-Driven Summaries:** Uses the Gemini API to create unique summaries of the news in the distinct voices of Kvothe, Bast, and Chronicler.
+  - **Character-Driven Summaries:** Uses the Gemini API to create unique summaries of the news in the distinct voices of Kvothe, Bast, and Chronicler. It also generates a simple rundown after for more readable updates.
   - **Automated Email Reports:** Compiles the summaries and a simple news rundown into an email and sends it to a specified recipient.
   - **Secure Configuration:** Designed to use environment variables for all sensitive credentials (API keys, email passwords), ensuring they are not hard-coded and exposed in the repository.
 
